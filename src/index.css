@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base style resets */
+html {
+  -webkit-text-size-adjust: none; /* Safari/Chrome */
+  -ms-text-size-adjust: none;     /* IE */
+  text-size-adjust: none;         /* Standard */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #f9f9f9;
+  color: #111827; /* Tailwind gray-900 */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  line-height: 1.5;
+  background-color: #fff;
+}
+
+/* Improve accessibility and button styles */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Custom utility class for centering content */
+.center-content {
+  @apply flex items-center justify-center;
+}

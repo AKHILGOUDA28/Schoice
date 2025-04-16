@@ -18,7 +18,7 @@ export default function Footer() {
           <a href="https://whatsapp.com/channel/0029Vb5Kon39hXF5GlnX7q30" target="_blank" rel="noopener noreferrer" className="hover:text-green-400">
             <FaWhatsapp />
           </a>
-          <a href="https://www.instagram.com/schoice_3?igsh=MW9vc2s5Z2VucHc3Nw==" target="_blank" rel="noopener noreferrer" className="hover:text-pink-400">
+          <a href="https://www.instagram.com/sdealspro?igsh=MW9vc2s5Z2VucHc3Nw==" target="_blank" rel="noopener noreferrer" className="hover:text-pink-400">
             <FaInstagram />
           </a>
         </div>

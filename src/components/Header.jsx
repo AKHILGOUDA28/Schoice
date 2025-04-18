@@ -24,7 +24,7 @@ export default function Navbar() {
             <Link to="/jeans" className="hover:text-blue-600">Jeans</Link>
             <Link to="/womenwear" className="hover:text-blue-600">Women</Link>
             <Link to="/electronics" className="hover:text-blue-600">Electronics</Link>
-            <Link to="/admin" className="hover:text-red-500 font-semibold">Admin</Link>
+            
           </nav>
 
           {/* Telegram Button */}

@@ -31,7 +31,7 @@ const Jeans = () => {
     <div className="p-6">
       <h2 className="text-3xl font-bold mb-6 text-center">👖 Jeans Collection</h2>
       {products.length === 0 ? (
-        <p className="text-center text-gray-600">No jeans available right now.</p>
+        <p className="text-center text-gray-600">Please wait until it loads 🔄</p>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {products.map(product => (

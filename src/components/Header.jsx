@@ -9,7 +9,7 @@ export default function Navbar() {
         {/* Logo and Brand */}
         <Link to="/" className="flex items-center mb-2 sm:mb-0">
           <img
-            src="https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/489822642_1771778970045591_9205987879831846534_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=xacCpxdI_lcQ7kNvwGOQJbA&_nc_oc=AdlZBeqCM77_J_od9bBr8K9ecLDJF0jHFPzJyB9LRMKDSastgvjYrKz4eFmiOS-C7JU&_nc_zt=23&_nc_ht=scontent-maa2-2.xx&_nc_gid=0j98Ruu796oitwV_g04AzQ&oh=00_AfEqCkfWdb-dMpauOYX70uWgVTuhUTwY8iZT53rbFLe9vg&oe=68054CAE"
+            src="https://scontent.fwgc3-1.fna.fbcdn.net/v/t39.30808-6/489822642_1771778970045591_9205987879831846534_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=DZCEDz5TkeIQ7kNvwFg-F3K&_nc_oc=Adnaxn2NANMNHXLVG1sstA1T1a3ip1wQicToVp3oG-SiHCTH6joYamRhyptTr6g7aVxTxZuYbVpcywFvp8AL0gYG&_nc_zt=23&_nc_ht=scontent.fwgc3-1.fna&_nc_gid=8AtWpHkFc4DTH4JIZLz9eA&oh=00_AfHtGXgG0VD91cJ6Vmo_GoaJztnZW_M76_U8bxlEDcBUfQ&oe=680E872E"
             alt="Company Logo"
             className="h-11 w-auto mr-3"
           />

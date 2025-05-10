@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo.png'; // importing local logo
 
 export default function Navbar() {
   return (
@@ -9,8 +10,8 @@ export default function Navbar() {
         {/* Logo and Brand */}
         <Link to="/" className="flex items-center mb-2 sm:mb-0">
           <img
-            src="https://scontent.fwgc3-1.fna.fbcdn.net/v/t39.30808-6/489822642_1771778970045591_9205987879831846534_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=DZCEDz5TkeIQ7kNvwFg-F3K&_nc_oc=Adnaxn2NANMNHXLVG1sstA1T1a3ip1wQicToVp3oG-SiHCTH6joYamRhyptTr6g7aVxTxZuYbVpcywFvp8AL0gYG&_nc_zt=23&_nc_ht=scontent.fwgc3-1.fna&_nc_gid=8AtWpHkFc4DTH4JIZLz9eA&oh=00_AfHtGXgG0VD91cJ6Vmo_GoaJztnZW_M76_U8bxlEDcBUfQ&oe=680E872E"
-            alt="Company Logo"
+            src={logo}
+            alt="Schoice Logo"
             className="h-11 w-auto mr-3"
           />
           <span className="text-xl font-bold text-blue-600">Schoice</span>
@@ -24,7 +25,6 @@ export default function Navbar() {
             <Link to="/jeans" className="hover:text-blue-600">Jeans</Link>
             <Link to="/womenwear" className="hover:text-blue-600">Women</Link>
             <Link to="/electronics" className="hover:text-blue-600">Electronics</Link>
-            
           </nav>
 
           {/* Telegram Button */}

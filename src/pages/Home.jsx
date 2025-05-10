@@ -26,25 +26,27 @@ const Home = () => {
 
   return (
     <div className="p-6">
-      <h1 className="text-3xl font-bold mb-6 text-center">🛒 Latest  Products Loading🔄</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center">🛒 Latest Products Loading🔄</h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products.map((product) => (
-          <div key={product.id} className="bg-white rounded-lg shadow-md p-4">
+          <div key={product.id} className="bg-white rounded-lg shadow-md p-4 flex flex-col">
             <img
               src={product.image}
               alt="Product"
-              className="w-full h-80 object-cover rounded"
+              className="w-full h-64 object-cover rounded-lg mb-4"
             />
+            <h2 className="text-xl font-semibold text-gray-800 truncate">{product.title}</h2>
+            <p className="text-sm text-gray-600 mt-2">{product.description}</p>
             <div className="mt-3 flex justify-between items-center">
-              <span className="text-sm font-medium bg-gray-200 px-2 py-1 rounded">
+              <span className="text-xs font-medium bg-gray-200 text-gray-800 px-2 py-1 rounded">
                 {product.category}
               </span>
               <a
                 href={product.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white bg-blue-600 hover:bg-blue-700 px-3 py-1 rounded text-sm"
+                className="text-white bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded text-sm"
               >
                 Buy Now
               </a>

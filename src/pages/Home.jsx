@@ -26,7 +26,14 @@ const Home = () => {
 
   return (
     <div className="p-6">
-      <h1 className="text-3xl font-bold mb-6 text-center">🛒 Latest Products Loading🔄</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center">
+        Welcome to <span className="text-blue-700">Schoice</span> – Discover the Smartest Choices Online!
+      </h1>
+
+      <p className="text-center text-gray-600 mb-4">
+        At <strong>Schoice</strong>, we curate the best tech, tools, and lifestyle products for students and professionals.
+        Browse our handpicked selection and shop smart today.
+      </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products.map((product) => (
@@ -54,6 +61,10 @@ const Home = () => {
           </div>
         ))}
       </div>
+
+      <p className="text-center mt-8 text-sm text-gray-500">
+        💡 Powered by <strong>Schoice</strong> – Your go-to affiliate marketplace.
+      </p>
     </div>
   );
 };

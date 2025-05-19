@@ -40,7 +40,7 @@ const Home = () => {
             <img
               src={product.image}
               alt="Product"
-              className="w-full h-64 object-cover rounded-lg mb-4"
+              className="w-full h-96 object-cover rounded-lg mb-4"
             />
             <h2 className="text-xl font-semibold text-gray-800 truncate">{product.title}</h2>
             <p className="text-sm text-gray-600 mt-2">{product.description}</p>

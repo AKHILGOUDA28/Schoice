@@ -42,7 +42,7 @@ const Electronics = () => {
               <img
                 src={product.image}
                 alt="Product"
-                className="w-full h-52 object-cover rounded mb-3"
+                className="w-full h-72 object-cover rounded mb-3"
               />
               <a
                 href={product.link}

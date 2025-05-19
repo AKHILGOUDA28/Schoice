@@ -31,8 +31,7 @@ const Home = () => {
       </h1>
 
       <p className="text-center text-gray-600 mb-4">
-        At <strong>Schoice</strong>, we curate the best tech, tools, and lifestyle products for students and professionals.
-        Browse our handpicked selection and shop smart today.
+        At <strong>Schoice</strong>
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
